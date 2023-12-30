@@ -1,0 +1,21 @@
+{
+    "modules": [
+        "login",
+        "main_navigation",
+        "home",
+        "submenu/masuk",
+        "submenu/keluar",
+        "submenu/pindah",
+        "submenu/mutasi",
+        "submenu/kurs"
+    ],
+    "module_directory_name": "module",
+    "experimental_mode": false,
+    "learning_mode": false,
+    "unfreezed": true,
+    "use_cubit": false,
+    "ignore_core_generator_for_directories": [
+        "lib/model",
+        "lib/models"
+    ]
+}
