@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_test_pt_jelajah_teknologi_negeri/global/constants/constant.dart';
 import 'package:get/get.dart';

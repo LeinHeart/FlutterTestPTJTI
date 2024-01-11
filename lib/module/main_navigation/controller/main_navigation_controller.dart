@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:io';
 
 import 'package:flutter_test_pt_jelajah_teknologi_negeri/core.dart';
 import 'package:flutter_test_pt_jelajah_teknologi_negeri/global/constants/constant.dart';
@@ -80,9 +81,18 @@ class MainNavigationController extends GetxController {
         // -- Set Currency
         currencyTypes =
             CurrencyType.fromJsonArray(responseJson['data']['cur_tipe']);
+      } else {
+        // --- Status Code Check
+        throw Exception('Request Error: ${response.statusCode}');
       }
+    } on SocketException {
+      print('No Internet connection 😑');
+    } on HttpException {
+      print("Couldn't find the post 😱");
+    } on FormatException {
+      print("Bad response format 👎");
     } catch (e) {
-      print('$e');
+      print('Error : $e');
     }
   }
 

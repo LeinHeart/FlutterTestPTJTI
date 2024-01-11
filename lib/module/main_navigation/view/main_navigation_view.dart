@@ -1,13 +1,5 @@
-import 'package:dotted_line/dotted_line.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_test_pt_jelajah_teknologi_negeri/global/constants/app_colors.dart';
-import 'package:flutter_test_pt_jelajah_teknologi_negeri/global/constants/app_icons.dart';
-import 'package:flutter_test_pt_jelajah_teknologi_negeri/global/text_styles/text_style.dart';
 import 'package:flutter_test_pt_jelajah_teknologi_negeri/global/widgets/loader.dart';
-import 'package:flutter_test_pt_jelajah_teknologi_negeri/module/main_navigation/widget/currency_text.dart';
-import 'package:flutter_test_pt_jelajah_teknologi_negeri/module/main_navigation/widget/menu_button.dart';
-import 'package:flutter_test_pt_jelajah_teknologi_negeri/module/main_navigation/widget/outlet_summary.dart';
-import '../controller/main_navigation_controller.dart';
 import 'package:flutter_test_pt_jelajah_teknologi_negeri/core.dart';
 import 'package:get/get.dart';
 

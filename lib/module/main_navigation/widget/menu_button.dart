@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test_pt_jelajah_teknologi_negeri/global/constants/app_colors.dart';
-import 'package:flutter_test_pt_jelajah_teknologi_negeri/global/constants/app_icons.dart';
 import 'package:flutter_test_pt_jelajah_teknologi_negeri/global/text_styles/text_style.dart';
 
 class MenuButton extends StatelessWidget {
